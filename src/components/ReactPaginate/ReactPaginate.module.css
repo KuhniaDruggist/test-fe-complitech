@@ -1,0 +1,40 @@
+.pagination {
+    width: 700px;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 15px;
+    list-style: none;
+}
+
+.pageItem,
+.pagePrevious,
+.pageNext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    margin: 1px;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #ddd;
+}
+
+.pageLink,
+.pagePreviousLink,
+.pageNextLink {
+    display: inline-block;
+    width: 100%;
+    color: rgb(51, 136, 255);
+    cursor: pointer;
+}
+
+.currentPage {
+    background-color: #ddd;
+    color: #fff;
+}
+
+.disabled a {
+    opacity: 0.5;
+    color: #ddd;
+}
