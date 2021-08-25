@@ -1,0 +1,30 @@
+.preloader {
+    width: 50px;
+}
+
+.list {
+    width: 700px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.fullName {
+    margin: 0;
+    color: rgb(51, 136, 255);
+}
